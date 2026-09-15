@@ -70,7 +70,7 @@ public class WebRequestParameterProvider implements PromptParameterProvider {
     @NonNull
     @Override
     public String getDescription(@NonNull Context context, @NonNull String parameterName) {
-        return context.getString(R.string.app.parameter.web_request.description);
+        return context.getString(R.string.app_parameter_web_request_description);
     }
 
     @Nullable
