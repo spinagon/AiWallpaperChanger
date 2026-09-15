@@ -97,6 +97,7 @@
     <string name="app.help.cfg_hires_fix_description">HiRes fix nejdříve vygeneruje obrázek v nižším rozlišení a následně jej upscaluje. To může pomoci, když model neumí nativně vygenerovat obrázky ve vámi zvoleném rozlišení. Funguje pouze pro větší obrázky, u obrázků s malým rozlišením může generování selhat, případně bude na pozadí HiRes fix vypnut. Výjimkou je model Stable Cascade, u kterého HiRes fix funguje v každém rozlišení.</string>
     <string name="app.error.prompt_parameter_invalid">Nelze použít parametr ${%s}, chybí nezbytná oprávnění.</string>
     <string name="app.parameter.season.description">Bude nahrazeno současným ročním obdobím v angličtině, spring, summer, autumn nebo winter.</string>
+    <string name="app.parameter.web_request.description">Provede GET požadavek na URL v šabloně a nahradí parametr tělem odpovědi. Například: ${web_request:https://example.com/${country}}.</string>
     <string name="app.parameter.time_of_day.description">Bude nahrazeno současnou částí dne v angličtině: morning, noon, afternoon, evening, night nebo midnight</string>
     <string name="app.help.prompt_parameters">Parametry promptu</string>
     <string name="app.help.prompt_parameters.description">Parametry promptu jsou speciální tokeny, které můžete využít v promptu (nebo negativním promptu) a při odeslání požadavku buoud nahrazeny jejich současnou hodnotou. Všechny parametry začínají na ${ a končí na }.</string>
